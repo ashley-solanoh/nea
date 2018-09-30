@@ -34,3 +34,35 @@ source .pyenv/bin/activate
 <pre>
 (.pyenv) [ascloud@ashdev-py nea]$
 </pre>
+
+* Install Flask
+
+<pre>
+pip install Flask
+</pre>
+
+* Start the flask server
+
+<pre>
+python hello.py
+</pre>
+
+* Navigate to the server using the following URL
+
+<pre>
+http://192.168.0.82:5000/hello
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
