@@ -16,4 +16,21 @@ cd workspace/
 git clone  https://github.com/ashley-solanoh/nea.git
 </pre>
 
-python3 -m venv
+* Create a virtual environment
+
+<pre>
+cd nea
+mkdir .pyenv
+python3.6 -m venv .pyenv
+</pre>
+
+* Activate the vritual environment
+
+<pre>
+source .pyenv/bin/activate
+</pre>
+
+* Once activated, the prompt should say the following:
+<pre>
+(.pyenv) [ascloud@ashdev-py nea]$
+</pre>
